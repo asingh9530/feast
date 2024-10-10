@@ -70,7 +70,7 @@ class DynamoDBOnlineStoreConfig(FeastConfigBaseModel):
     tags: Union[Dict[str, str], None] = None
     """AWS resource tags added to each table"""
 
-    session_based_auth: bool = False
+    session_based_auth: bool = True
     """AWS session based client authentication"""
 
 
